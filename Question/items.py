@@ -22,4 +22,6 @@ class QuestionItem(scrapy.Item):
     type = scrapy.Field()
     # 课目
     subject = scrapy.Field()
+    # 解析
+    analysis = scrapy.Field()
     pass
